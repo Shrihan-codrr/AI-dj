@@ -1,0 +1,43 @@
+.heading {
+    font-size: 17px;
+    color: aquamarine;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+#disc_1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+#disc_2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+#Disc_speed {
+    float: left;
+}
+
+#Disc_volume {
+    float: right;
+}
+
+#Speed_disc,
+#Volume_disc {
+    font-size: 25px;
+    margin: 10px;
+}
+
+canvas {
+    border: 5px ridge cyan;
+    border-radius: 20px;
+    box-shadow: 2px 3px 100px cyan;
+}
